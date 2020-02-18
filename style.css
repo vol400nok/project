@@ -3,10 +3,19 @@ p {
   
 }
 #header {
-  margin:32px;
+  margin:30px;
  text-align:  center;
-  
-}
+ }
+ 
+ .leftimg {
+ float:left; /* Выравнивание по левому краю */
+ margin: 5px 5px 5px 0; /* Отступы вокруг картинки */
+ }
+ .rightimg {
+ float: right; /* Выравнивание по правому краю */
+ margin: 5px 0 5px 5px; /* Отступы вокруг картинки */
+
+ }
  
 h1 {
 font-size: 36px;
